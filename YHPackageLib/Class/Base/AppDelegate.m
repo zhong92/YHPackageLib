@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "PLTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window.rootViewController = [[PLTabBarController alloc] init];
+    
     return YES;
 }
 
