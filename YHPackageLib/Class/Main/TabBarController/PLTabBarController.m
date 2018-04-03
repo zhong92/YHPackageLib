@@ -30,6 +30,14 @@
                                           normalIconName:@""
                                         selectedIconName:@""
                                                classType:[UIViewController class]]];
+    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第二个"
+                                          normalIconName:@""
+                                        selectedIconName:@""
+                                               classType:[UIViewController class]]];
+    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第二个"
+                                          normalIconName:@""
+                                        selectedIconName:@""
+                                               classType:[UIViewController class]]];
     
     return [childVCs copy];
 }

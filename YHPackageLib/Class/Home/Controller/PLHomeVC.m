@@ -25,6 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.tabBarController setSelectedIndex:2];
+}
+
 /*
 #pragma mark - Navigation
 
