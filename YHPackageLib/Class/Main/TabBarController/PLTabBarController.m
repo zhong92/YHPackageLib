@@ -23,20 +23,20 @@
 - (NSArray<YHChildVCModel *> *)childViewControllerModels:(NSMutableArray<YHChildVCModel *> *)childVCs
 {
     [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第一个"
-                                          normalIconName:@""
-                                        selectedIconName:@""
+                                          normalIconName:@"tabBar_0"
+                                        selectedIconName:@"tabBar_0HL"
                                                classType:[PLHomeVC class]]];
     [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第二个"
-                                          normalIconName:@""
-                                        selectedIconName:@""
+                                          normalIconName:@"tabBar_1"
+                                        selectedIconName:@"tabBar_1HL"
                                                classType:[UIViewController class]]];
-    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第二个"
-                                          normalIconName:@""
-                                        selectedIconName:@""
+    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第三个"
+                                          normalIconName:@"tabBar_2"
+                                        selectedIconName:@"tabBar_2HL"
                                                classType:[UIViewController class]]];
-    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第二个"
-                                          normalIconName:@""
-                                        selectedIconName:@""
+    [childVCs addObject:[YHChildVCModel vcModelWithTitle:@"第四个"
+                                          normalIconName:@"tabBar_3"
+                                        selectedIconName:@"tabBar_3HL"
                                                classType:[UIViewController class]]];
     
     return [childVCs copy];

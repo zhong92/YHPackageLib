@@ -14,8 +14,12 @@
 @protocol YHTabBarControllerProtocol <NSObject>
 
 @required
-// 初始化
+
+
+// 初始化所有的子控制器
 - (NSArray<YHChildVCModel *> *)childViewControllerModels:(NSMutableArray<YHChildVCModel *> *)childVCs;
+// 设置TabBar的背景色、高亮文字颜色、文字字体
+//- ()
 
 @end
 

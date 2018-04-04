@@ -26,7 +26,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 初始化子控制器
     [self initChildViewControllerWithChildVCModels:[self childViewControllerModels:[NSMutableArray array]]];
+    
 }
 
 - (void)viewDidAppear:(BOOL)animated
