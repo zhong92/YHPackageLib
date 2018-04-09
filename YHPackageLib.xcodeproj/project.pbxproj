@@ -124,8 +124,8 @@
 		4A6D36672073B7CB00FC95D1 /* YHPackageLib */ = {
 			isa = PBXGroup;
 			children = (
-				4A6D368A2073B84200FC95D1 /* Resource */,
 				4A6D367E2073B80C00FC95D1 /* Class */,
+				4A6D368A2073B84200FC95D1 /* Resource */,
 				4A6D366E2073B7CB00FC95D1 /* Main.storyboard */,
 				4A6D36712073B7CB00FC95D1 /* Assets.xcassets */,
 				4A6D36732073B7CB00FC95D1 /* LaunchScreen.storyboard */,
