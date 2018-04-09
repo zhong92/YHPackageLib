@@ -19,6 +19,7 @@
 		4A6D369F2073CE5600FC95D1 /* YHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D369E2073CE5600FC95D1 /* YHTabBar.m */; };
 		4A6D36A22073CE7000FC95D1 /* YHTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D36A12073CE7000FC95D1 /* YHTabBarButton.m */; };
 		4A6D36A72073D11C00FC95D1 /* PLHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6D36A62073D11C00FC95D1 /* PLHomeVC.m */; };
+		AE97E5FC207B4A8F00ABDF40 /* NSData+YH.m in Sources */ = {isa = PBXBuildFile; fileRef = AE97E5FB207B4A8F00ABDF40 /* NSData+YH.m */; };
 		AEF4722B207490EA004D771F /* tabBar_0.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF47213207490EA004D771F /* tabBar_0.png */; };
 		AEF4722C207490EA004D771F /* tabBar_0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF47214207490EA004D771F /* tabBar_0@2x.png */; };
 		AEF4722D207490EA004D771F /* tabBar_0@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEF47215207490EA004D771F /* tabBar_0@3x.png */; };
@@ -68,6 +69,8 @@
 		4A6D36A12073CE7000FC95D1 /* YHTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHTabBarButton.m; sourceTree = "<group>"; };
 		4A6D36A52073D11C00FC95D1 /* PLHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLHomeVC.h; sourceTree = "<group>"; };
 		4A6D36A62073D11C00FC95D1 /* PLHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLHomeVC.m; sourceTree = "<group>"; };
+		AE97E5FA207B4A8F00ABDF40 /* NSData+YH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+YH.h"; sourceTree = "<group>"; };
+		AE97E5FB207B4A8F00ABDF40 /* NSData+YH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+YH.m"; sourceTree = "<group>"; };
 		AEF47213207490EA004D771F /* tabBar_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBar_0.png; sourceTree = "<group>"; };
 		AEF47214207490EA004D771F /* tabBar_0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_0@2x.png"; sourceTree = "<group>"; };
 		AEF47215207490EA004D771F /* tabBar_0@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabBar_0@3x.png"; sourceTree = "<group>"; };
@@ -148,6 +151,7 @@
 		4A6D367F2073B80C00FC95D1 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				AE97E5F9207B4A7900ABDF40 /* Category */,
 				4A6D368E2073B88700FC95D1 /* YHTabBarController */,
 			);
 			path = Lib;
@@ -268,6 +272,15 @@
 				4A6D36A62073D11C00FC95D1 /* PLHomeVC.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE97E5F9207B4A7900ABDF40 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AE97E5FA207B4A8F00ABDF40 /* NSData+YH.h */,
+				AE97E5FB207B4A8F00ABDF40 /* NSData+YH.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		AEF47212207490EA004D771F /* tabBarIcons */ = {
@@ -405,6 +418,7 @@
 				4A6D36A72073D11C00FC95D1 /* PLHomeVC.m in Sources */,
 				4A6D36872073B80C00FC95D1 /* ViewController.m in Sources */,
 				4A6D36932073B8BB00FC95D1 /* YHTabBarControler.m in Sources */,
+				AE97E5FC207B4A8F00ABDF40 /* NSData+YH.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

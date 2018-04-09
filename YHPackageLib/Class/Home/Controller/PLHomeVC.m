@@ -7,6 +7,7 @@
 //
 
 #import "PLHomeVC.h"
+#import "NSData+YH.h"
 
 @interface PLHomeVC ()
 
@@ -18,6 +19,21 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor grayColor];
+    
+    NSData *data = [NSData dataWithBytesString:@"1122e4a767858686akh"];
+    NSLog(@"%@", data);
+    
+    
+//    [data isEqualToData:<#(nonnull NSData *)#>]
+    
+    
+//    Byte *bts = data.bytes;
+    
+    if ([data isEqualToByte:@"12" atIndex:1]) {
+        NSLog(@"yes");
+    } else{
+        NSLog(@"no");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
