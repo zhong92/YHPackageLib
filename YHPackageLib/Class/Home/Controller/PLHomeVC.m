@@ -22,12 +22,7 @@
     
     NSData *data = [NSData dataWithBytesString:@"1122e4a767858686akh"];
     NSLog(@"%@", data);
-    
-    
-//    [data isEqualToData:<#(nonnull NSData *)#>]
-    
-    
-//    Byte *bts = data.bytes;
+
     
     if ([data isEqualToByte:@"12" atIndex:1]) {
         NSLog(@"yes");
